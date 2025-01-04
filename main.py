@@ -12,6 +12,12 @@ import base64
 import traceback
 import random
 import openpyxl
+from aiohttp_socks import ProxyConnector
+
+
+
+proxy_list = ["http://130.162.180.254:8888", "http://131.0.234.101:55555","http://130.162.180.254:8888","http://130.162.180.254:8888",
+             "http://130.162.180.254:8888","http://130.162.180.254:8888","http://130.162.180.254:8888","http://130.162.180.254:8888"]
 
 # Tạo một workbook mới
 workbook = openpyxl.Workbook()
@@ -36,7 +42,7 @@ def is_numeric_string(s, allowed_chars='0123456789'):
             return False
             
     return True 
-values = [0.7, 1, 1.3, 1.6, 1.9,2.5]
+values = [1, 2, 4, 7,5,10,,40,46,60]
 async def xulyData(data):
     daidienpl = None
     ngaycapgp = None
