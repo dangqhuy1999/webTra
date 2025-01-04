@@ -1,0 +1,422 @@
+[
+    {
+        "Thành phố Hà Nội": "https://www.tratencongty.com/thanh-pho-ha-noi/"
+    },
+    {
+        "Thành phố Hải Phòng": "https://www.tratencongty.com/thanh-pho-hai-phong/"
+    },
+    {
+        "Tỉnh Hải Dương": "https://www.tratencongty.com/tinh-hai-duong/"
+    },
+    {
+        "Tỉnh Hưng Yên": "https://www.tratencongty.com/tinh-hung-yen/"
+    },
+    {
+        "Tỉnh Hà Nam": "https://www.tratencongty.com/tinh-ha-nam/"
+    },
+    {
+        "Tỉnh Nam Định": "https://www.tratencongty.com/tinh-nam-dinh/"
+    },
+    {
+        "Tỉnh Thái Bình": "https://www.tratencongty.com/tinh-thai-binh/"
+    },
+    {
+        "Tỉnh Ninh Bình": "https://www.tratencongty.com/tinh-ninh-binh/"
+    },
+    {
+        "Tỉnh Hà Giang": "https://www.tratencongty.com/tinh-ha-giang/"
+    },
+    {
+        "Tỉnh Cao Bằng": "https://www.tratencongty.com/tinh-cao-bang/"
+    },
+    {
+        "Tỉnh Lào Cai": "https://www.tratencongty.com/tinh-lao-cai/"
+    },
+    {
+        "Tỉnh Bắc Kạn": "https://www.tratencongty.com/tinh-bac-kan/"
+    },
+    {
+        "Tỉnh Lạng Sơn": "https://www.tratencongty.com/tinh-lang-son/"
+    },
+    {
+        "Tỉnh Tuyên Quang": "https://www.tratencongty.com/tinh-tuyen-quang/"
+    },
+    {
+        "Tỉnh Yên Bái": "https://www.tratencongty.com/tinh-yen-bai/"
+    },
+    {
+        "Tỉnh Thái Nguyên": "https://www.tratencongty.com/tinh-thai-nguyen/"
+    },
+    {
+        "Tỉnh Phú Thọ": "https://www.tratencongty.com/tinh-phu-tho/"
+    },
+    {
+        "Tỉnh Vĩnh Phúc": "https://www.tratencongty.com/tinh-vinh-phuc/"
+    },
+    {
+        "Tỉnh Bắc Giang": "https://www.tratencongty.com/tinh-bac-giang/"
+    },
+    {
+        "Tỉnh Bắc Ninh": "https://www.tratencongty.com/tinh-bac-ninh/"
+    },
+    {
+        "Tỉnh Quảng Ninh": "https://www.tratencongty.com/tinh-quang-ninh/"
+    },
+    {
+        "Tỉnh Điện Biên": "https://www.tratencongty.com/tinh-dien-bien/"
+    },
+    {
+        "Tỉnh Lai Châu": "https://www.tratencongty.com/tinh-lai-chau/"
+    },
+    {
+        "Tỉnh Sơn La": "https://www.tratencongty.com/tinh-son-la/"
+    },
+    {
+        "Tỉnh Hòa Bình": "https://www.tratencongty.com/tinh-hoa-binh/"
+    },
+    {
+        "Tỉnh Thanh Hoá": "https://www.tratencongty.com/tinh-thanh-hoa/"
+    },
+    {
+        "Tỉnh Nghệ An": "https://www.tratencongty.com/tinh-nghe-an/"
+    },
+    {
+        "Tỉnh Hà Tĩnh": "https://www.tratencongty.com/tinh-ha-tinh/"
+    },
+    {
+        "Tỉnh Quảng Bình": "https://www.tratencongty.com/tinh-quang-binh/"
+    },
+    {
+        "Tỉnh Quảng Trị": "https://www.tratencongty.com/tinh-quang-tri/"
+    },
+    {
+        "Tỉnh Thừa Thiên - Huế": "https://www.tratencongty.com/tinh-thua-thien-hue/"
+    },
+    {
+        "Thành phố Đà Nẵng": "https://www.tratencongty.com/thanh-pho-da-nang/"
+    },
+    {
+        "Tỉnh Quảng Nam": "https://www.tratencongty.com/tinh-quang-nam/"
+    },
+    {
+        "Tỉnh Quảng Ngãi": "https://www.tratencongty.com/tinh-quang-ngai/"
+    },
+    {
+        "Tỉnh Bình Định": "https://www.tratencongty.com/tinh-binh-dinh/"
+    },
+    {
+        "Tỉnh Phú Yên": "https://www.tratencongty.com/tinh-phu-yen/"
+    },
+    {
+        "Tỉnh Khánh Hòa": "https://www.tratencongty.com/tinh-khanh-hoa/"
+    },
+    {
+        "Tỉnh Kon Tum": "https://www.tratencongty.com/tinh-kon-tum/"
+    },
+    {
+        "Tỉnh Gia Lai": "https://www.tratencongty.com/tinh-gia-lai/"
+    },
+    {
+        "Tỉnh Đắk Lắk": "https://www.tratencongty.com/tinh-dak-lak/"
+    },
+    {
+        "Tỉnh Đắk Nông": "https://www.tratencongty.com/tinh-dak-nong/"
+    },
+    {
+        "Thành phố Hồ Chí Minh": [
+            "https://www.tratencongty.com/thanh-pho-ho-chi-minh/",
+            [
+                {
+                    "Quận 1": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-1/"
+                },
+                {
+                    "Quận 2": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-2/"
+                },
+                {
+                    "Quận 3": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-3/"
+                },
+                {
+                    "Quận 4": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-4/"
+                },
+                {
+                    "Quận 5": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-5/"
+                },
+                {
+                    "Quận 6": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-6/"
+                },
+                {
+                    "Quận 7": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-7/"
+                },
+                {
+                    "Quận 8": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-8/"
+                },
+                {
+                    "Quận 9": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-9/"
+                },
+                {
+                    "Quận 10": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-10/"
+                },
+                {
+                    "Quận 11": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-11/"
+                },
+                {
+                    "Quận 12": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-12/"
+                },
+                {
+                    "Quận Gò Vấp": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-go-vap/"
+                },
+                {
+                    "Quận Tân Bình": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-tan-binh/"
+                },
+                {
+                    "Quận Tân Phú": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-tan-phu/"
+                },
+                {
+                    "Quận Bình Thạnh": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-binh-thanh/"
+                },
+                {
+                    "Quận Phú Nhuận": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-phu-nhuan/"
+                },
+                {
+                    "Quận Thủ Đức": [
+                        "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-thu-duc/",
+                        [
+                            {
+                                "Phường Linh Đông": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-thu-duc/phuong-linh-dong/"
+                            },
+                            {
+                                "Phường Hiệp Bình Chánh": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-thu-duc/phuong-hiep-binh-chanh/"
+                            },
+                            {
+                                "Phường Hiệp Bình Phước": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-thu-duc/phuong-hiep-binh-phuoc/"
+                            },
+                            {
+                                "Phường Tam Phú": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-thu-duc/phuong-tam-phu/"
+                            },
+                            {
+                                "Phường Linh Xuân": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-thu-duc/phuong-linh-xuan/"
+                            },
+                            {
+                                "Phường Linh Chiểu": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-thu-duc/phuong-linh-chieu/"
+                            },
+                            {
+                                "Phường Trường Thọ": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-thu-duc/phuong-truong-tho/"
+                            },
+                            {
+                                "Phường Bình Chiểu": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-thu-duc/phuong-binh-chieu/"
+                            },
+                            {
+                                "Phường Linh Tây": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-thu-duc/phuong-linh-tay/"
+                            },
+                            {
+                                "Phường Bình Thọ": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-thu-duc/phuong-binh-tho/"
+                            },
+                            {
+                                "Phường Tam Bình": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-thu-duc/phuong-tam-binh/"
+                            },
+                            {
+                                "Phường Linh Trung": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-thu-duc/phuong-linh-trung/"
+                            }
+                        ]
+                    ]
+                },
+                {
+                    "Quận Bình Tân": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/quan-binh-tan/"
+                },
+                {
+                    "Huyện Củ Chi": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/huyen-cu-chi/"
+                },
+                {
+                    "Huyện Hóc Môn": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/huyen-hoc-mon/"
+                },
+                {
+                    "Huyện Bình Chánh": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/huyen-binh-chanh/"
+                },
+                {
+                    "Huyện Nhà Bè": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/huyen-nha-be/"
+                },
+                {
+                    "Huyện Cần Giờ": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/huyen-can-gio/"
+                },
+                {
+                    "Thành phố Thủ Đức": [
+                        "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/",
+                        [
+                            {
+                                "Phường An Phú": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-an-phu/"
+                            },
+                            {
+                                "Phường Thảo Điền": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-thao-dien/"
+                            },
+                            {
+                                "Phường An Khánh": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-an-khanh/"
+                            },
+                            {
+                                "Phường An Khánh": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-an-khanh/"
+                            },
+                            {
+                                "Phường An Lợi Đông": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-an-loi-dong/"
+                            },
+                            {
+                                "Phường Bình Trưng Tây": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-binh-trung-tay/"
+                            },
+                            {
+                                "Phường Bình Trưng Đông": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-binh-trung-dong/"
+                            },
+                            {
+                                "Phường Cát Lái": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-cat-lai/"
+                            },
+                            {
+                                "Phường Thạnh Mỹ Lợi": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-thanh-my-loi/"
+                            },
+                            {
+                                "Phường Thủ Thiêm": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-thu-thiem/"
+                            },
+                            {
+                                "Phường Thủ Thiêm": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-thu-thiem/"
+                            },
+                            {
+                                "Phường Phước Long A": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-phuoc-long-a/"
+                            },
+                            {
+                                "Phường Phước Long B": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-phuoc-long-b/"
+                            },
+                            {
+                                "Phường Tăng Nhơn Phú A": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-tang-nhon-phu-a/"
+                            },
+                            {
+                                "Phường Tăng Nhơn Phú B": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-tang-nhon-phu-b/"
+                            },
+                            {
+                                "Phường Long Trường": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-long-truong/"
+                            },
+                            {
+                                "Phường Trường Thạnh": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-truong-thanh/"
+                            },
+                            {
+                                "Phường Phước Bình": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-phuoc-binh/"
+                            },
+                            {
+                                "Phường Tân Phú": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-tan-phu/"
+                            },
+                            {
+                                "Phường Hiệp Phú": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-hiep-phu/"
+                            },
+                            {
+                                "Phường Long Thạnh Mỹ": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-long-thanh-my/"
+                            },
+                            {
+                                "Phường Long Bình": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-long-binh/"
+                            },
+                            {
+                                "Phường Long Phước": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-long-phuoc/"
+                            },
+                            {
+                                "Phường Phú Hữu": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-phu-huu/"
+                            },
+                            {
+                                "Phường Linh Đông": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-linh-dong/"
+                            },
+                            {
+                                "Phường Hiệp Bình Chánh": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-hiep-binh-chanh/"
+                            },
+                            {
+                                "Phường Hiệp Bình Phước": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-hiep-binh-phuoc/"
+                            },
+                            {
+                                "Phường Tam Phú": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-tam-phu/"
+                            },
+                            {
+                                "Phường Linh Xuân": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-linh-xuan/"
+                            },
+                            {
+                                "Phường Linh Chiểu": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-linh-chieu/"
+                            },
+                            {
+                                "Phường Trường Thọ": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-truong-tho/"
+                            },
+                            {
+                                "Phường Bình Chiểu": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-binh-chieu/"
+                            },
+                            {
+                                "Phường Linh Tây": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-linh-tay/"
+                            },
+                            {
+                                "Phường Bình Thọ": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-binh-tho/"
+                            },
+                            {
+                                "Phường Tam Bình": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-tam-binh/"
+                            },
+                            {
+                                "Phường Linh Trung": "https://www.tratencongty.com/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/phuong-linh-trung/"
+                            }
+                        ]
+                    ]
+                }
+            ]
+        ]
+    },
+    {
+        "Tỉnh Lâm Đồng": "https://www.tratencongty.com/tinh-lam-dong/"
+    },
+    {
+        "Tỉnh Ninh Thuận": "https://www.tratencongty.com/tinh-ninh-thuan/"
+    },
+    {
+        "Tỉnh Bình Phước": "https://www.tratencongty.com/tinh-binh-phuoc/"
+    },
+    {
+        "Tỉnh Tây Ninh": "https://www.tratencongty.com/tinh-tay-ninh/"
+    },
+    {
+        "Tỉnh Bình Dương": "https://www.tratencongty.com/tinh-binh-duong/"
+    },
+    {
+        "Tỉnh Đồng Nai": "https://www.tratencongty.com/tinh-dong-nai/"
+    },
+    {
+        "Tỉnh Bình Thuận": "https://www.tratencongty.com/tinh-binh-thuan/"
+    },
+    {
+        "Tỉnh Bà Rịa - Vũng Tàu": "https://www.tratencongty.com/tinh-ba-ria-vung-tau/"
+    },
+    {
+        "Tỉnh Long An": "https://www.tratencongty.com/tinh-long-an/"
+    },
+    {
+        "Tỉnh Đồng Tháp": "https://www.tratencongty.com/tinh-dong-thap/"
+    },
+    {
+        "Tỉnh An Giang": "https://www.tratencongty.com/tinh-an-giang/"
+    },
+    {
+        "Tỉnh Tiền Giang": "https://www.tratencongty.com/tinh-tien-giang/"
+    },
+    {
+        "Tỉnh Vĩnh Long": "https://www.tratencongty.com/tinh-vinh-long/"
+    },
+    {
+        "Tỉnh Bến Tre": "https://www.tratencongty.com/tinh-ben-tre/"
+    },
+    {
+        "Tỉnh Kiên Giang": "https://www.tratencongty.com/tinh-kien-giang/"
+    },
+    {
+        "Thành phố Cần Thơ": "https://www.tratencongty.com/thanh-pho-can-tho/"
+    },
+    {
+        "Tỉnh Hậu Giang": "https://www.tratencongty.com/tinh-hau-giang/"
+    },
+    {
+        "Tỉnh Trà Vinh": "https://www.tratencongty.com/tinh-tra-vinh/"
+    },
+    {
+        "Tỉnh Sóc Trăng": "https://www.tratencongty.com/tinh-soc-trang/"
+    },
+    {
+        "Tỉnh Bạc Liêu": "https://www.tratencongty.com/tinh-bac-lieu/"
+    },
+    {
+        "Tỉnh Cà Mau": "https://www.tratencongty.com/tinh-ca-mau/"
+    }
+]
