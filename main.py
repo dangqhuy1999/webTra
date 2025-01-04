@@ -1,9 +1,90 @@
+from lxml import etree
 import aiohttp
 import asyncio
 from lxml import html
 import dbConnect
 import json 
 import time
+from PIL import Image
+import pytesseract
+import io
+import base64
+import traceback
+import random
+import openpyxl
+
+# Tạo một workbook mới
+workbook = openpyxl.Workbook()
+
+# Chọn sheet hiện tại
+sheet = workbook.active
+
+# Đặt tiêu đề cho các cột (nếu cần)
+sheet.append(["Tên Công Ty", "Địa Chỉ", "Số Điện Thoại", "Đại Diện Pháp Luật", "Ngày Cấp Giấy Phép", "Link", "NumPage"])
+
+
+def is_numeric_string(s, allowed_chars='0123456789'):
+    # Loại bỏ các ký tự trắng
+    stripped = s.strip()
+    
+    # Thêm các ký tự cho phép vào danh sách
+    allowed_chars += '\n\t '
+    
+    # Kiểm tra nếu chuỗi chỉ chứa số và các ký tự cho phép
+    for char in stripped:
+        if char not in allowed_chars:
+            return False
+            
+    return True 
+values = [0.7, 1, 1.3, 1.6, 1.9,2.5]
+async def xulyData(data):
+    daidienpl = None
+    ngaycapgp = None
+    ngayhd = None
+    if "Đại diện pháp luật" in data:
+        if "Ngày cấp giấy phép:" in data:
+          daidienpl = data.split("Ngày cấp giấy phép:")[0].split(':')[1].strip()
+          data = data.split("Ngày cấp giấy phép:")[1]
+          if "Ngày hoạt động:" in data:
+            ngaycapgp = data.split("Ngày hoạt động:")[0].strip()
+            data = data.split("Ngày hoạt động:")[1]
+            if "Điện thoại trụ sở:" in data:
+              ngayhd = data.split("Điện thoại trụ sở:")[0].strip()
+              data = data.split("Điện thoại trụ sở:")[1]
+            if "Trạng thái:" in data:
+              ngayhd = data.split("Trạng thái:")[0].strip()
+              data = data.split("Trạng thái:")[1]
+    else:
+        daidienpl="NoName"
+        if "Ngày cấp giấy phép:" in data:
+          
+          if "Ngày hoạt động:" in data:
+            ngaycapgp = data.split("Ngày hoạt động:")[0].strip()
+            data = data.split("Ngày hoạt động:")[1]
+            if "Điện thoại trụ sở:" in data:
+              ngayhd = data.split("Điện thoại trụ sở:")[0].strip()
+              data = data.split("Điện thoại trụ sở:")[1]
+            if "Trạng thái:" in data:
+              ngayhd = data.split("Trạng thái:")[0].strip()
+              data = data.split("Trạng thái:")[1]    
+    return daidienpl, ngaycapgp, ngayhd
+
+async def image_to_text(base64_data):
+  # Đường dẫn đến tệp thực thi Tesseract
+  pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+  # Tách chuỗi base64 để lấy phần dữ liệu
+  base64_str = base64_data.split(",")[1]
+
+  # Chuyển đổi từ base64 sang hình ảnh
+  image_data = base64.b64decode(base64_str)
+  image = Image.open(io.BytesIO(image_data))
+  
+  custom_config = r'--psm 6'
+  # Nhận diện văn bản
+  #custom_config = r'--psm 7 -c tessedit_char_whitelist=0123456789'  # Thay đổi psm theo nhu cầu của bạn
+  text = pytesseract.image_to_string(image,config=custom_config)
+
+  return text
 
 # db link cty, dia chi, sdt nguoi dai dien, ngay thanh lap.
 
@@ -152,14 +233,53 @@ async def getInfo(url,province,district):
                      print(len(ctyLinkp))
                      for ctyLink in ctyLinkp:
                          url2 = ctyLink.get('href')
-                         response2 = await fetch(session,url2)
-                         content2 = html.fromstring(response2)
-                         infoCTY = content2.xpath("//div[@class='jumbotron']")[0].text_content()
+                         laplai = 1
+                         while True:
+                           laplai+=1
+                           response2 = await fetch(session,url2)
+                           content2 = html.fromstring(response2)
+                           infoCTYpp = content2.xpath("//div[@class='jumbotron']")
+                           sendContinue =0
+                           if infoCTYpp[0] or laplai >5:
+                             infoCTYp = infoCTYpp[0]
+                             break
+                           elif laplai > 6:
+                               sendContinue = 1
+                               break
+                           else:
+                             time.sleep(3)
+                           if sendContinue ==1:
+                             continue                               
+                         outer_html = etree.tostring(infoCTYp, pretty_print=True, encoding='unicode')
+                         #print(outer_html)
+                         imgp = html.fromstring(outer_html)
+                         sdt = "Non"
+                         try:
+                           base64_datap = imgp.xpath('(//img)[2]')
+                           base64_data = base64_datap[0].get('src')
+                           sdt = await image_to_text(base64_data)
+                         except Exception as e:
+                            pass
+                         infoCTY = infoCTYp.text_content()
                          print(f'Info: \n{infoCTY}')
+                         lines = infoCTY.splitlines()
+                         tenCTY = lines[1].strip()
+                         diachiCTY = lines[4].split(":")[1].strip()
+                         data5 = lines[5].strip()
+                         daidienpl, ngaycapgp, ngayhd = await xulyData(data5)
                          
-                         with open('ctyInfo.txt', 'a' , encoding='utf-8') as file:
-                             file.write(infoCTY)
-                         time.sleep(0.5)
+                         print(f"{tenCTY}\n{diachiCTY}\n{sdt.strip()}\n{daidienpl}\n{ngaycapgp}\n")
+                         time.sleep(random.choice(values))
+                         if sdt is not None and is_numeric_string(sdt) == True:
+                            # Ghi dữ liệu vào sheet
+                            sheet.append([tenCTY, diachiCTY, sdt, daidienpl, ngaycapgp, url2,pageNum ])
+
+                            # Lưu tệp Excel
+                            workbook.save("thuduc.xlsx")
+                         #with open('ctyInfo.txt', 'a' , encoding='utf-8') as file:
+                         #    file.write(infoCTY)
+                         #n=input('newcty_\n')
+                         #time.sleep(0.5)
                      
                      slTD += len(ctyLinkp)
 
@@ -186,7 +306,7 @@ async def getInfo(url,province,district):
 
                       break
                   except Exception as e:
-                    print(e)
+                    print(str(traceback.print_exc()))
                     n=input('Fail e!!!')
                     break
 async def main():
