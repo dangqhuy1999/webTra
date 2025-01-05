@@ -11,8 +11,8 @@ async def check_proxy(proxy):
         async with aiohttp.ClientSession() as session:
             async with session.get(url, headers=headers, proxy=proxy, timeout=5) as response:
                 if response.status == 200:
-                    #with  open ('proxiesWorking.txt' ,'a', encoding='utf-8') as file:
-                      #file.write(f"{proxy}\n")
+                    with  open ('proxiesWorking.txt' ,'a', encoding='utf-8') as file:
+                      file.write(f"{proxy}\n")
                     return f"{proxy} is working"
                 else:
                     return f"{proxy} returned status {response.status}"
@@ -21,7 +21,7 @@ async def check_proxy(proxy):
 
 async def main():
     # Đọc danh sách proxy từ file
-    with open('Free_Proxy_List.txt', 'r') as file:
+    with open('proxies.txt', 'r') as file:
         proxies = [line.strip() for line in file.readlines()]
 
     tasks = [check_proxy(proxy) for proxy in proxies]
